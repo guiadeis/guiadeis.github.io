@@ -1,8 +1,10 @@
-
 $(function()
 {
-    var iframe_height = 0;    
-    setInterval(ResizeIframe, 1000, '#iframe_content');
+    var iframe_height = 0;
+    $('#iframe_content').on('load', function()
+    {
+        setInterval(ResizeIframe, 1000, '#iframe_content');
+    });
 });
 
 const ResizeIframe = function(iframe)
