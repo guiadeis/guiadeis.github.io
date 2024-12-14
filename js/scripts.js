@@ -5,7 +5,7 @@ $(function()
 
 const ResizeIframe = function(iframe)
 {
-    let iframe_height = $(iframe).contents().find("body").height();
+    let iframe_height = $(iframe).contents().find("html").height();
     
     $(iframe).height(iframe_height);
 }
