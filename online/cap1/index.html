@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Leer Online - Gu&iacute;a de IS</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+        <link href="/css/styles.css" rel="stylesheet" />
+        <script src="/js/jquery.min-v3.4.1.js"></script>
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/"><img width="24px" class="me-2" src="/assets/logo.png"> Guía de IS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="/">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/online/">Leer online</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/recursos/">Recursos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page header with logo and tagline-->
+        <header class="py-5 bg-light border-bottom mb-4">
+            <div class="container">
+                <div class="text-center my-5">
+                    <img class="card-img-top mt-5" style="width:50%;" src="/assets/banner_v1.png" alt="..." />
+                    <h1 class="fw-bolder mt-5">Bienvenido a la gu&iacute;a de Ingenier&iacute;a de Sistemas</h1>
+                </div>
+            </div>
+        </header>
+        <!-- Page content-->
+        <div class="container mb-4">
+            <div class="row">
+
+                <div class="col-12 col-md-9 col-lg-10">
+
+                    <!-- Contents-->
+                    <div id="contents"  class="p-4 d-none">
+# **1\. Introducción a la Ingeniería de Sistemas**
+
+## **1.1. Qué es un Sistema**
+
+El concepto más familiar para los ingenieros de sistemas a menudo se remonta a Ludwig von Bertalanffy (1950, 1968), en el que se considera un sistema como un "todo" que consiste en “partes” que interactúan entre sí. 
+
+![](/online/images/image1.jpg)
+
+Ejemplo de un sistema, sus elementos y ambiente. Fuente: SEBoK.
+
+Se presentan las siguientes definiciones acerca de qué es un sistema:
+
+* Las definiciones INCOSE e ISO/IEC/IEEE se basan en la visión de que un sistema es un conjunto integrado de elementos, subsistemas o conjuntos que logran un objetivo definido. Estos elementos incluyen productos (hardware, software, firmware), procesos, personas, información, técnicas, instalaciones, servicios y otros elementos de soporte.  
+* La NASA (2007) define un “sistema” como la combinación de elementos que funcionan juntos para producir la capacidad necesaria para satisfacer una necesidad. Los elementos incluyen todo el hardware, software, equipo, instalaciones, personal, procesos y procedimientos necesarios para este fin; es decir, todo lo necesario para producir resultados a nivel de sistema.
+
+## **1.2. Qué es la Ingeniería de Sistemas**
+
+A continuación, se presentan algunas definiciones:
+
+* La ingeniería de sistemas es un enfoque interdisciplinario y un medio para permitir la **realización** de **sistemas exitosos**. Se centra en definir las necesidades del cliente y la funcionalidad requerida en las primeras etapas del ciclo de desarrollo, documentar los requisitos y luego proceder con la síntesis del diseño y la validación del sistema mientras se considera el problema completo: operaciones, costos y cronograma, desempeño, capacitación y soporte, pruebas, fabricación, y eliminación. (INCOSE, 2004).  
+* La ingeniería de sistemas **integra** todas las disciplinas y grupos de especialidades en un esfuerzo de equipo formando un **proceso de desarrollo estructurado** que avanza desde el concepto hasta la producción y la operación. (INCOSE, 2004).  
+* La ingeniería de sistemas considera tanto las necesidades comerciales como técnicas de todos los clientes con el objetivo de proporcionar un producto de calidad que satisfaga las **necesidades del usuario**. (INCOSE, 2004).  
+* La función de la ingeniería de sistemas es guiar la **ingeniería** de sistemas complejos. (Kossiakoff, Sweet, Seymour y Biemer, 2011). En esta definición, la palabra “ingeniería” se puede interpretar como *construcción*, *diseño* y *fabricación* mediante el uso de la ingeniería.
+
+## **1.3. El Ingeniero de Sistemas**
+
+La mayoría de los ingenieros de sistemas son profesionales que utilizan procesos y métodos que se han desarrollado y evolucionado durante décadas. Recordando que: “la Ingeniería de Sistemas es un enfoque pragmático, inherentemente interdisciplinario, pero especializado” (SEBoK). 
+
+Los ingenieros de sistemas suelen trabajar dentro de un dominio específico utilizando procesos y métodos que se adaptan a los problemas, limitaciones, riesgos y oportunidades únicos de su dominio. Estos procesos y métodos han evolucionado para capturar el conocimiento de los expertos en el dominio (especialistas) sobre el mejor enfoque para aplicar la Ingeniería de Sistemas al dominio en particular.
+
+SEBoK menciona que un ingeniero de sistemas es "una persona que practica la ingeniería de sistemas", y cuyas capacidades y experiencia en ingeniería de sistemas incluyen la práctica prolongada, especialización, liderazgo o autoridad sobre las actividades de la Ingeniería de Sistemas. Estas actividades pueden ser realizadas por cualquier persona competente independientemente de su cargo o afiliación profesional.
+
+![](/online/images/image2.jpg)
+
+Las relaciones del ingeniero de sistemas y sus relaciones. Fuente: SEBoK.
+
+# **1.4\. Conceptos fundamentales de la Ingeniería de Sistemas**
+
+## **1.4.1. Sistema de interés**
+
+Se presentan dos definiciones acerca de qué es un sistema de interés o *system of interest* (abreviado *SOI*):
+
+* El sistema cuyo ciclo de vida se está considerando. (ISO/IEC/IEEE 2015)
+
+* El sistema que interesa al observador. (Bertalanffy 1968)
+
+
+## **1.4.2. Jerarquía de un Sistema**
+
+En el uso de la terminología ISO/IEC/IEEE, los elementos del sistema pueden ser atómicos (es decir, no descomponerse más), o pueden ser sistemas por sus propios méritos (es decir, descomponerse en más elementos subordinados del sistema). La integración de los elementos del sistema debe establecer la relación entre los efectos que tiene la organización de los elementos en sus interacciones y cómo estos efectos permiten que el sistema logre su propósito. (INCOSE, 2015).
+
+![](/online/images/image3.png)
+
+Jerarquía de un sistema. Fuente: INCOSE.
+
+## **1.4.3. Sistema de Sistemas**
+
+Un “sistema de sistemas” (SoS) es un SOI (sistema de interés) cuyos elementos son sistemas administrativa y/o operativamente independientes. Estas colecciones interoperativas y/o integradas de sistemas constituyentes generalmente producen resultados que los sistemas individuales por sí solos no pueden lograr. Debido a que un SoS es en sí mismo un sistema, el ingeniero de sistemas puede elegir si abordarlo como un sistema o como un SoS, dependiendo de qué perspectiva se adapte mejor a un problema en particular. (INCOSE, 2015).
+
+![](/online/images/image4.png)
+
+Representación de un sistema de sistemas. Fuente: Dahmann.
+
+## **1.4.4. Sistemas “habilitantes”**
+
+Los sistemas habilitantes son sistemas que facilitan las actividades del ciclo de vida del SOI (sistema de interés). Los sistemas habilitantes brindan servicios que el SOI necesita durante una o más etapas del ciclo de vida, aunque los sistemas habilitantes no son un elemento directo del entorno operativo. (INCOSE, 2015).
+
+![](/online/images/image5.png)
+
+Representación de sistemas habilitantes. Fuente: ISO 15288:2015.
+
+## **1.4.5. Sistemas de Ingeniería**
+
+Un sistema de ingeniería (*Engineered System*) es un sistema diseñado o adaptado para interactuar con un entorno operativo anticipado para lograr uno o más propósitos previstos mientras cumple con las restricciones aplicables. Por lo tanto, un “sistema de ingeniería” es un sistema (no necesariamente tecnológico) que ha sido o será un “sistema de ingeniería” para un propósito.
+
+Los “sistemas de ingeniería” pueden estar compuestos por cualquiera o todos los individuos, productos, servicios, información, procesos y elementos naturales. (INCOSE).
+
+## **1.4.6. Tabla de conceptos de Sistemas**
+
+A continuación se presenta una tabla de conceptos fundamentales relacionados con los sistemas:
+
+| Concepto | Definición fundamental |
+| ----- | ----- |
+| Abstracción | Un enfoque en las características esenciales es importante en la resolución de problemas porque permite a los solucionadores de problemas ignorar lo no esencial, simplificando así el problema (Sci-Tech Encyclopedia, 2009; SearchCIO, 2012; Pearce, 2012). |
+| Límites | Un límite o membrana separa el sistema del mundo externo. Sirve para concentrar las interacciones dentro del sistema, permitiendo el intercambio con sistemas externos (Hoagland, Dodson y Mauck, 2001). |
+| Cambio | El cambio es necesario para el crecimiento y la adaptación, y debe ser aceptado y planificado como parte del orden natural de las cosas en lugar de algo que debe ser ignorado, evitado o prohibido (Bertalanffy, 1968; Hybertson, 2009). |
+| Dualismo | Reconocer las dualidades y considerar cómo están, o pueden armonizarse en el contexto de un todo más grande (Hybertson, 2009). |
+| Encapsulación | Ocultar partes internas y sus interacciones desde el entorno externo (Klerer, 1993; IEEE, 1990). |
+| Equifinalidad | En los sistemas abiertos, se puede llegar al mismo estado final desde diferentes condiciones iniciales y de diferentes maneras (Bertalanffy, 1968). Este principio puede ser explotado, especialmente en sistemas de agentes útiles. |
+| Holismo | Un sistema debe considerarse como una sola entidad, un todo, no sólo como un conjunto de piezas (Ackoff, 1979; Klir, 2001). |
+| Interacción | Las propiedades, capacidades y el comportamiento de un sistema se derivan de sus partes, de las interacciones entre esas partes y de las interacciones con otros sistemas (Hitchins, 2009 p. 60). |
+| Jerarquía de  Capas | La evolución de los sistemas complejos se ve facilitada por su estructura jerárquica (incluyendo formas intermedias estables) y la comprensión de los sistemas complejos se ve facilitada por su descripción jerárquica (Pattee, 1973; Bertalanffy, 1968; Simon, 1996). |
+| Apalancamiento | Alcanzar el máximo apalancamiento (Hybertson, 2009). Debido a la compensación de poder versus generalidad, el apalancamiento puede lograrse mediante una solución completa (potencia) para una clase estrecha de problemas, o por una solución parcial para una amplia clase de problemas (generalidad). |
+| Modularidad | Partes no relacionadas del sistema deben separarse, y las partes relacionadas del sistema deben agruparse (Griswold, 1995). |
+| Redes | La red es una topología fundamental para sistemas que forma la base de la unión, conexión e interacción dinámica de partes que producen el comportamiento de sistemas complejos (Lawson, 2010; Martin et al. 2004; Sillitto, 2010). |
+| Parsimonia | Uno debe elegir la explicación más simple de un fenómeno, el que requiere menos supuestos (Cibernética, 2012). Esto se aplica no sólo a la elección de un diseño, sino también a los de operaciones y requisitos. |
+| Regularidad | La ciencia de sistemas debe encontrar y capturar regularidades en los sistemas, porque esas regularidades promueven la comprensión de los sistemas y facilitan la práctica de los sistemas (Bertalanffy, 1968). |
+| Relaciones | Un sistema se caracteriza por sus relaciones: las interconexiones entre los elementos. La retroa cuenta es un tipo de relación. El conjunto de relaciones define la de red del sistema (Odum, 1994). |
+| Separación de las preocupaciones | Un problema más grande se resuelve más eficazmente cuando se descompone: un conjunto de problemas o preocupaciones más pequeñas (Erl, 2012; Greer, 2008). |
+| Similitudes/Diferencias | Tanto las similitudes como las diferencias en los sistemas deben ser reconocidas y aceptadas por lo que son (Bertalanffy, 1975 p. 75; Hybertson 2009). Evite forzar una talla encaja todos, y evite tratar todo como totalmente único. |
+| Estabilidad/Cambio | Las cosas cambian a diferentes velocidades, y las entidades o conceptos en el extremo estable del espectro pueden y deben utilizarse para proporcionar un contexto orientador para entidades que cambian rápidamente en el volátil extremo del espectro (Hybertson 2009). El estudio de sistemas adaptativos complejos puede dar orientación al comportamiento del sistema y el diseño en entornos cambiantes (Holland, 1992). |
+| Síntesis | Los sistemas se pueden crear mediante el diseño, las partes correctas (concibiendo, diseñando, seleccionando) las partes correctas, acompañándolas para interactuar de la manera correcta, y en orquestar esas interacciones para crear las propiedades necesarias del conjunto, de manera que funcione con una eficacia óptima en su ambiente operativo, resolviendo así el problema que impulsó su creación. (Hitchins, 2009: 120). |
+| Vistas | Las múltiples opiniones, cada una basada en un aspecto o preocupación del sistema, son esenciales para comprender un sistema complejo o una situación problemática. Una opinión crítica es cómo la preocupación se relaciona con las propiedades del todo (Edson, 2008; Hybertson, 2009). |
+                    </div>
+                    <!-- /Contents -->
+
+                </div>
+
+                <!-- aside -->
+                <nav class="col-md-3 col-lg-2 d-md-block bg-dark">
+                    <div class="py-3">
+                        <ul id="aside_contents" class="nav flex-column">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                    
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container text-white">
+                <p style="font-size:12px;" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Guía de IS</span> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p> 
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/scripts.js"></script>
+        <script type="module">
+            import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+            import { GetAside } from "/js/aside.js";
+
+            $(function()
+            {
+                let md = $('#contents')[0].innerHTML;
+                let md_parsed = marked.parse(md);
+                $('#contents').html(md_parsed);
+                $('#contents').removeClass('d-none');
+
+                GetAside('inicio');
+            });
+        </script>
+    </body>
+</html>
