@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Leer Online - Gu&iacute;a de IS</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+        <link href="/css/styles.css" rel="stylesheet" />
+        <script src="/js/jquery.min-v3.4.1.js"></script>
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        </nav>
+        <!-- Page header with logo and tagline-->
+        <header class="py-5 bg-light border-bottom mb-4">
+            <div class="container">
+                <div class="text-center my-5">
+                    <img class="card-img-top mt-5" style="width:50%;" src="/assets/banner_v1.png" alt="..." />
+                    <h1 class="fw-bolder mt-5">Bienvenido a la gu&iacute;a de Ingenier&iacute;a de Sistemas</h1>
+                </div>
+            </div>
+        </header>
+        <!-- Page content-->
+        <div class="container mb-4">
+            <div class="row">
+
+                <div class="col-12 col-md-9 col-lg-10">
+
+                    <!-- Contents-->
+                    <div id="contents"  class="p-4 d-none">
+# **3\. Ciclo de Vida de Sistemas** {#3.-ciclo-de-vida-de-sistemas}
+
+## **3.1. Introducción** {#3.1.-introducción}
+
+INCOSE (2023) establece que el propósito general de la Ingeniería de Sistemas es permitir la **realización exitosa del sistema** mientras se optimizan los objetivos de las partes interesadas en competencia. Una forma de gestionar la realización es dividiendo el esfuerzo general en pasos o etapas de transformación, luego verificando el cumplimiento satisfactorio de las características del sistema al final de cada etapa, así como verificando si el riesgo es aceptable y si el sistema está listo para entrar a otras etapas.
+
+## **3.2. Qué es el Ciclo de Vida de Sistemas** {#3.2.-qué-es-el-ciclo-de-vida-de-sistemas}
+
+Kossiakoff, Sweet, Seymour y Biemer (2011) mencionan que el término “ciclo de vida de sistemas” se utiliza comúnmente para referirse a la evolución gradual de un nuevo sistema desde el concepto hasta el desarrollo, la producción, la operación y la eliminación final. A medida que el tipo de trabajo evoluciona desde el análisis en las primeras fases conceptuales hasta el desarrollo y las pruebas de ingeniería, hasta la producción y el uso operativo, el papel de la ingeniería de sistemas cambia en consecuencia.
+
+Por analogía con las etapas por las que pasan los seres vivos, llamadas ciclo de vida, el conjunto de etapas de un sistema se denomina ciclo de vida del sistema. Por lo que los sistemas diseñados progresan de alguna manera a través de un conjunto de etapas, formando conceptualmente un ciclo de vida de sistemas, con puertas de decisión que determinan la finalización de una etapa y el inicio de otra. 
+
+![][image2]
+
+Relación de los procesos del ciclo de vida. Fuente: SEBoK.
+
+El ingeniero de sistemas se apoya en la aplicación de los procesos del ciclo de vida que dan en resultado el sistema de interés y sus componentes.
+
+## **3.3. Modelo de Ciclo de Vida de Sistemas** {#3.3.-modelo-de-ciclo-de-vida-de-sistemas}
+
+Un modelo de ciclo de vida identifica las principales etapas por las que pasa un SoI específico, desde su inicio hasta su retiro. Los modelos de ciclo de vida generalmente se implementan en proyectos de desarrollo y están fuertemente alineados con la planificación de gestión y la toma de decisiones.
+
+ISO/IEC 15288 (2015) define al Modelo de Ciclo de Vida de Sistemas como un “marco de procesos y actividades relacionados con el ciclo de vida que pueden organizarse en etapas, que también actúa como referencia común para la comunicación y la comprensión”. Es importante mencionar que los modelos de ciclo de vida utilizados en la ingeniería de sistemas tienen un grado de complejidad alto, debido a que estas permiten trabajar con un sistema, en general, de naturaleza compleja; donde también se requiere conocimiento en las terminologías utilizadas en la ingeniería de sistemas y, sobre todo, la aplicación del pensamiento sistémico.
+
+Se mencionan algunos puntos claves acerca de los modelos de ciclo de vida de sistemas:
+
+* INCOSE (2023) menciona que los modelos de ciclo de vida son el marco dentro del cual se planifican e implementan las etapas individuales del ciclo de vida y las transiciones entre ellas.  
+* No existe un modelo “talla única” de ciclo de vida del sistema que pueda proporcionar una guía específica para todas las situaciones de un proyecto. (SEBoK).
+
+## **3.4. Enfoques de los modelos de ciclo de vida** {#3.4.-enfoques-de-los-modelos-de-ciclo-de-vida}
+
+### **3.4.1. Enfoque secuencial, incremental y evolutivo** {#3.4.1.-enfoque-secuencial,-incremental-y-evolutivo}
+
+INCOSE (2023) menciona que una forma común de diferenciar los enfoques de los modelos de ciclos de vida es dividirlos en tres grupos: secuencial, incremental y evolutivo.
+
+![][image6]
+
+Enfoques de los modelos de ciclo de vida. Fuente: INCOSE (2023).
+
+### **3.4.2. Enfoque de sistemas para la creación de soluciones** {#3.4.2.-enfoque-de-sistemas-para-la-creación-de-soluciones}
+
+SEBoK menciona que la síntesis de soluciones se describe como una forma de adoptar un enfoque sistémico para crear soluciones. La síntesis es, en general, una combinación de enfoques de arriba hacia abajo y de abajo hacia arriba.
+
+**Enfoque de arriba hacia abajo: del problema a la solución**
+
+En un enfoque de arriba hacia abajo, las actividades de definición de conceptos se centran principalmente en comprender el problema, las necesidades/requisitos operativos dentro del espacio del problema y las condiciones que limitan la solución y limitan el espacio de la solución. Las actividades de definición del concepto determinan el contexto de la misión, el análisis de la misión y las necesidades que debe satisfacer en ese contexto un sistema nuevo o modificado (es decir, el *Sistema de Interés*), y abordan las necesidades y requisitos de las partes interesadas.
+
+En este enfoque, las actividades de comprensión del problema y selección de soluciones se completan en la parte inicial del desarrollo y diseño del sistema y luego se mantienen y perfeccionan según sea necesario durante todo el ciclo de vida de cualquier sistema de solución resultante. Las actividades de arriba hacia abajo pueden ser secuenciales, iterativas, recursivas o evolutivas según el modelo de ciclo de vida.
+
+**Enfoque ascendente: evolución de la solución**
+
+En algunas situaciones, las actividades de definición del concepto determinan la necesidad de evolucionar las capacidades existentes o agregar nuevas capacidades a un sistema existente. Durante la definición del concepto se evalúan las alternativas para abordar las necesidades. Luego, los ingenieros deben reconsiderar la definición del sistema para modificar o adaptar algunas propiedades estructurales, funcionales, de comportamiento o temporales durante el ciclo de vida del producto o servicio para un contexto de uso cambiante o con el propósito de mejorar las soluciones existentes.
+
+Es necesario un enfoque ascendente para fines de análisis o para (re)utilizar elementos existentes en la arquitectura de diseño. Los cambios en el contexto de uso o la necesidad de mejora pueden provocar esto. Por el contrario, generalmente se utiliza un enfoque de arriba hacia abajo para definir una solución de diseño inicial correspondiente a un problema o un conjunto de necesidades.
+
+**Síntesis de la solución**
+
+En la mayoría de los problemas reales, una combinación de enfoques ascendentes y descendentes proporciona la combinación adecuada de pensamiento de solución innovadora impulsado por la necesidad y pensamiento limitado y pragmático impulsado por lo que ya existe. A esto se le suele denominar enfoque “intermedio”.
+
+Además de ser el enfoque más pragmático, la síntesis tiene el potencial de mantener el ciclo de vida enfocado en cuestiones de todo el sistema, al tiempo que permite la exploración de los niveles de detalle específicos necesarios para describir soluciones realizables.
+
+## **3.5. Modelos más comunes** {#4.5.-modelos-más-comunes}
+
+Existe gran variedad de modelos para guiar el ciclo de vida de un sistema, los cuales han sido desarrollados por diferentes organizaciones. Se mencionan algunos:
+
+**Modelos de organizaciones importantes o reconocidos ampliamente:**
+
+* **Estándar ISO 15288**: Es el marco de trabajo estándar utilizado por la Sociedad Internacional de Ingeniería de Sistemas (INCOSE) que establece los procesos, actividades y tareas necesarias para el desarrollo, implementación y mantenimiento de sistemas y productos de ingeniería. También establece los requisitos para la gestión de riesgos, la gestión de configuración y la gestión de la calidad.
+
+![][image7]
+
+Modelo de ciclo de vida genérico del estándar ISO 15288:2023. Fuente: ISO 15288 (2023)
+
+* **Proceso SE Vee**: El modelo SE Vee (*System Engineering Vee*) es una representación gráfica del ciclo de vida de desarrollo de sistemas. Se utiliza para producir modelos rigurosos de ciclo de vida de desarrollo y modelos de gestión de proyectos. El modelo SE Vee (llamado así por su forma que representa la letra “V” en el idioma inglés) fue introducido por Forsberg y Mooz (1991), y descrito en Forsberg, et al. (2005).
+
+Modelo de Ingeniería de Sistemas Vee. Fuente: Forsberg (2005).
+
+* **Modelo de ciclo de vida en cascada**: Es uno de los modelos más antiguos y comunes en la ingeniería de software, en el cual las fases del ciclo de vida se ejecutan secuencialmente, de manera que cada fase debe ser completada antes de que se pueda comenzar la siguiente. Este modelo fue propuesto por Royce en 1970\.
+
+Modelo en Cascada. Fuente: Royce (1970).
+
+* **Modelo de ciclo de vida en espiral**: Este modelo fue propuesto por Barry Boehm en 1986 y es una variante del modelo en cascada. El modelo de ciclo de vida en espiral se enfoca en la identificación temprana de riesgos y en la adaptación continua a medida que se avanza en el ciclo de vida del sistema.
+
+El modelo de espiral de compromiso incremental. Fuente: Boehm (2014).
+
+* **Modelo de Ciclo de Vida de DoD**: Es un modelo de ciclo de vida de ingeniería de sistemas desarrollado por el Departamento de Defensa de los Estados Unidos.
+
+Modelo de ciclo de vida del DoD. Fuente: INCOSE (2023).
+
+**Modelos presentados por autores:**
+
+* **Modelo de Ciclo de Vida de la Ingeniería de Sistemas (Kossiakoff, Sweet, Seymour y Biemer):** Es un modelo para el desarrollo de sistemas complejos mediante 3 etapas: desarrollo del concepto, desarrollo de ingeniería y posdesarrollo.
+
+Modelo de Ciclo de vida de Kossiakoff, Sweet, Seymour y Biemer. Fuente: Kossiakoff, Sweet, Seymour y Biemer (2011).
+
+* **Modelo de Proceso de Ingenieria de Sistemas de Wasson (Wasson)**: Es un modelo de ciclo de vida de ingenieria de sistemas desarrollado por Wasson (2016) que consta de 6 pasos o procesos: Entender el problema/oportunidad y los espacios de solución, desarrollar la solución dominio de requerimientos, desarrollar la solución dominio de operaciones, desarrollar la solución dominio de comportamiento, desarrollar la solución dominio física, evaluar y optimizar la solución de diseño del sistema.
+
+Modelo de ciclo de vida de Wasson. Fuente: Wasson (2016).
+
+**Otros modelos:**
+
+* **Modelo de ciclo de vida de SEBoK (Systems Engineering Body of Knowledge)**: es una guía de referencia para la ingeniería de sistemas que proporciona un modelo de ciclo de vida genérico para sistemas que se divide en las siguientes etapas principales: definición del concepto, definición del sistema, realización del sistema (producción, soporte, utilización) y retiro del sistema.
+
+Modelo de ciclo de vida SEBoK. Fuente: SEBoK (2024).
+
+* **Arcadia**: ARCADIA es un método con herramientas dedicado a la ingeniería y arquitectura de sistemas, respaldado por la herramienta de modelado Capella. Su objetivo principal es definir, analizar, diseñar y validar arquitectura de sistemas, software y hardware. Consta de 5 pasos o procesos: análisis de necesidades operacionales del cliente, análisis de las necesidades del sistema, software o hardware; diseño de la arquitectura lógica, diseño de la arquitectura física y desarrollo de contratos.
+
+Método Arcadia. Fuente: Jean-Luc Voirin (2023).
+
+## **3.5. Terminología** {#4.5.-terminología}
+
+A continuación, se muestra la terminología más utilizada relacionada a los modelos de ciclo de vida de sistemas.
+
+* **Proceso**: Un proceso es una serie de acciones o pasos que se toman con el fin de lograr un fin particular. Los procesos pueden ser realizados por humanos o máquinas transformando entradas en salidas. (SEBoK)  
+* **Requisito**: Un requisito es algo que se necesita o se desea pero que puede no ser obligatorio en todas las circunstancias. Los requisitos pueden referirse a características o limitaciones del producto o proceso. Las diferentes interpretaciones de los requisitos dependen del estado del proceso, el nivel de abstracción y el tipo (por ejemplo, funcional, rendimiento, restricción). Un requisito individual también puede tener múltiples interpretaciones a lo largo del tiempo. (SEBoK)  
+* **Arquitectura**: Una arquitectura se refiere a la estructura organizativa de un sistema, mediante la cual el sistema se puede definir en diferentes contextos. La arquitectura es el arte o práctica de diseñar las estructuras. (SEBoK)  
+* **Concurrencia**: Es la aplicación paralela de dos o más procesos en un nivel dado en la jerarquía del sistema. Es probable que se realice trabajo simultáneo en cualquier proyecto y los procesos del ciclo de vida del sistema también se pueden realizar de manera simultánea. (INCOSE, 2023\)  
+* **Iteración**: Es la aplicación repetida y la interacción entre dos o más procesos en un nivel dado en la jerarquía del sistema. (INCOSE, 2023\)  
+* **Recursión**: Es la aplicación repetida del conjunto de procesos del ciclo de vida, adaptados según corresponda, en niveles sucesivos en la jerarquía del sistema. (INCOSE, 2023\)
+
+![][image8]
+
+Concurrencia, iteración y recursión. Fuente: INCOSE (2023)
+                    </div>
+                    <!-- /Contents -->
+
+                </div>
+
+                <!-- aside -->
+                <nav class="col-md-3 col-lg-2 d-md-block bg-dark">
+                    <div class="py-3">
+                        <ul id="aside_contents" class="nav flex-column">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                    
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container text-white">
+                <p style="font-size:12px;" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Guía de IS</span> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p> 
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/scripts.js"></script>
+        <script type="module">
+            import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+            import { GetAside } from "/js/aside.js";
+            import { GetNavbar } from "/js/navbar.js";
+
+            $(function()
+            {
+                GetNavbar('leerOnline');
+
+                let md = $('#contents')[0].innerHTML;
+                let md_parsed = marked.parse(md);
+                $('#contents').html(md_parsed);
+                $('#contents').removeClass('d-none');
+
+                GetAside('cap3');
+            });
+        </script>
+    </body>
+</html>

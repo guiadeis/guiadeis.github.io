@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Leer Online - Gu&iacute;a de IS</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+        <link href="/css/styles.css" rel="stylesheet" />
+        <script src="/js/jquery.min-v3.4.1.js"></script>
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        </nav>
+        <!-- Page header with logo and tagline-->
+        <header class="py-5 bg-light border-bottom mb-4">
+            <div class="container">
+                <div class="text-center my-5">
+                    <img class="card-img-top mt-5" style="width:50%;" src="/assets/banner_v1.png" alt="..." />
+                    <h1 class="fw-bolder mt-5">Bienvenido a la gu&iacute;a de Ingenier&iacute;a de Sistemas</h1>
+                </div>
+            </div>
+        </header>
+        <!-- Page content-->
+        <div class="container mb-4">
+            <div class="row">
+
+                <div class="col-12 col-md-9 col-lg-10">
+
+                    <!-- Contents-->
+                    <div id="contents"  class="p-4 d-none">
+# **6\. Representando Sistemas con Modelos** {#6.-representando-sistemas-con-modelos}
+
+SEBoK menciona que un modelo es una representación simplificada de un sistema en algún momento particular en el tiempo o el espacio destinado a promover la comprensión del sistema real. Como abstracción de un sistema, ofrece información sobre uno o más aspectos del sistema, como su función, estructura, propiedades, rendimiento, comportamiento o costo.
+
+## **6.1. Ingeniería de Sistemas basada en Modelos** {#6.1.-ingeniería-de-sistemas-basada-en-modelos}
+
+INCOSE Systems Engineering Vision 2020 (2007) define MBSE como “la aplicación formalizada de modelado para respaldar los requisitos del sistema, las actividades de diseño, análisis, verificación y validación que comienzan en la fase de diseño conceptual y continúan durante las fases de desarrollo y posteriores del ciclo de vida”. 
+
+MBSE a menudo se contrasta con un enfoque tradicional de SE (System Engineering) basado en documentos. En un enfoque de SE basado en documentos y esta información contenida en estos documentos suele ser difícil de mantener y sincronizar, y difícil de evaluar en términos de su calidad (corrección, integridad y coherencia). En un enfoque MBSE, gran parte de esta información se captura en un modelo de sistema o conjunto de modelos. El modelo del sistema es un artefacto principal del proceso de Ingeniería de Sistemas. MBSE formaliza la aplicación de la Ingeniería de Sistemas mediante el uso de modelos. (INCOSE, 2015).
+
+## **6.2. Tipos de modelos** {#6.2.-tipos-de-modelos}
+
+Se presentan los siguientes tipos según SEBoK:
+
+* **Formal VS informal**: Dado que un modelo de sistema es una representación de un sistema, muchas expresiones diferentes que varían en grados de formalismo podrían considerarse modelos. En particular, se podría hacer un dibujo de un sistema y considerarlo un modelo. De manera similar, se podría escribir una descripción de un sistema en un texto y referirse a él como modelo. El enfoque principal del modelado de sistemas es utilizar modelos respaldados por un lenguaje de modelado bien definido.  
+* **Modelos físicos versus modelos abstractos**: un modelo físico es una representación concreta que se distingue de los modelos matemáticos y lógicos, los cuales son representaciones más abstractas del sistema. El modelo abstracto se puede clasificar además como descriptivo (similar al lógico) o analítico (similar al matemático).  
+* **Modelos descriptivos**: un modelo descriptivo describe relaciones lógicas, como la relación parte-todo del sistema que define su árbol de partes, la interconexión entre sus partes, las funciones que realizan sus componentes o los casos de prueba que se utilizan para verificar los requisitos del sistema.  
+* **Modelos analíticos**: un modelo analítico describe relaciones matemáticas, como ecuaciones diferenciales que respaldan análisis cuantificables sobre los parámetros del sistema. Los modelos analíticos se pueden clasificar además en modelos dinámicos y estáticos. Los modelos dinámicos describen el estado de un sistema que varía en el tiempo, mientras que los modelos estáticos realizan cálculos que no representan el estado de un sistema que varía en el tiempo.  
+* **Modelos híbridos descriptivos y analíticos**: un modelo particular puede incluir aspectos descriptivos y analíticos como se describió anteriormente, pero los modelos pueden favorecer un aspecto u otro. También se pueden analizar las relaciones lógicas de un modelo descriptivo y se pueden hacer inferencias para razonar sobre el sistema. Sin embargo, el análisis lógico proporciona conocimientos diferentes que un análisis cuantitativo de los parámetros del sistema.  
+* **Simulación versus modelo**: el término simulación, o más específicamente simulación por computadora, se refiere a un método para implementar un modelo a lo largo del tiempo (DoD 1998). La simulación por computadora incluye el modelo analítico que se representa en código ejecutable, las condiciones de entrada y otros datos de entrada, y la infraestructura informática.
+
+## **6.3. Estándares de modelado** {#6.3.-estándares-de-modelado}
+
+Se necesitan diferentes tipos de modelos para respaldar el análisis, la especificación, el diseño y la verificación de sistemas. La evolución de los estándares de modelado permite la amplia adopción de la ingeniería de sistemas basada en modelos (MBSE). Se presentan los siguientes estándares de modelado:
+
+* Lenguaje de modelado de sistemas (SysML) (OMG 2010a)  
+* Diagrama de bloques de flujo funcional (FFBD) (Oliver, Kelliher y Keegan 1997\)  
+* Definición de integración para modelado funcional (IDEF0) (NIST 1993\)  
+* Metodología Objeto-Proceso (OPM) \[\[1\]\] (Dori 2002; ISO/PAS 19450:2015)  
+* Perfil unificado para el marco de arquitectura del Departamento de Defensa de los Estados Unidos (DoDAF) y el marco de arquitectura del Ministerio de Defensa del Reino Unido (MODAF) (OMG 2011e)  
+* Lenguaje de ontología web (OWL) (W3C 2004b)  
+* Simulación interactiva distribuida (DIS) (IEEE 1998\)  
+* Arquitectura de alto nivel (HLA) (IEEE 2010\)  
+* Modelica (Asociación Modelica 2010\)  
+* Semántica de un subconjunto fundamental para modelos ejecutables de lenguaje de modelado unificado (UML) (FUML) (OMG 2011d)
+
+![][image10]
+
+Modelado de Sistemas usando el lenguaje de modelado SysML. Fuente: Web oficial de SysML
+
+## **6.4. Herramientas de modelado** {#6.4.-herramientas-de-modelado}
+
+Existen gran variedad de herramientas de modelado que apoyan el MBSE y soportan el lenguaje de modelado SysML, en su mayoría comerciales, sin embargo existen alternativas Open Source, actualmente, con buen desarrollo disponibles. Se presentan las herramientas de modelado más comunes:
+
+| Nombre | Creador | Sistemas operativos disponibles | Open Source | Sitio web |
+| ----- | ----- | ----- | :---: | ----- |
+| Capella | Thales Group & Eclipse Foundation community | Windows, Linux, macOS | Sí | https://mbse-capella.org/ |
+| Papyrus | Commissariat à l'Énergie Atomique, Atos Origin | Windows, Linux, macOS (Java) | Sí | https://eclipse.dev/papyrus/ |
+| Modelio | Modeliosoft (SOFTEAM Group)  | Windows, Linux, macOS | Sí | https://www.modelio.org/ |
+| Gaphor | Arjan Molenaar, Dan Yeaw, y otros | Windows, MacOS, Linux | Sí | https://gaphor.org/ |
+| Enterprise Architect |  Sparx Systems | Windows (supports Linux and macOS installation) | No | https://sparxsystems.com/ |
+| MagicDraw | No Magic, a Dassault Systèmes company | Windows, Windows Server, Linux, Mac OS X (Java SE 11-compatible) | No | https://www.magicdraw.com/ |
+| Rational Rhapsody | IBM | Windows, Linux | No | https://www.ibm.com/es-es/products/systems-design-rhapsody |
+| System Architect | UNICOM Global | Windows | No | https://www.unicomsi.com/products/system-architect/ |
+| Cameo Systems Modeler | 3DS Catia, No Magic | Windows, Linux, macOS | No | https://www.3ds.com/products/catia/no-magic/cameo-systems-modeler |
+| System Composer | The MathWorks, Inc. | Windows, Linux, macOS | No | https://www.mathworks.com/products/system-composer.html |
+
+Tabla de herramientas MBSE. Fuente: Autores
+
+Modelado de Sistemas usando la herramienta Capella. Fuente: Web oficial de Capella
+
+Modelado de Sistemas usando Gaphor. Fuente: Sitio web oficial de Gaphor.
+                    </div>
+                    <!-- /Contents -->
+
+                </div>
+
+                <!-- aside -->
+                <nav class="col-md-3 col-lg-2 d-md-block bg-dark">
+                    <div class="py-3">
+                        <ul id="aside_contents" class="nav flex-column">
+                            
+                        </ul>
+                    </div>
+                </nav>
+                    
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container text-white">
+                <p style="font-size:12px;" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Guía de IS</span> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p> 
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/scripts.js"></script>
+        <script type="module">
+            import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+            import { GetAside } from "/js/aside.js";
+            import { GetNavbar } from "/js/navbar.js";
+
+            $(function()
+            {
+                GetNavbar('leerOnline');
+
+                let md = $('#contents')[0].innerHTML;
+                let md_parsed = marked.parse(md);
+                $('#contents').html(md_parsed);
+                $('#contents').removeClass('d-none');
+
+                GetAside('cap5');
+            });
+        </script>
+    </body>
+</html>
